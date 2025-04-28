@@ -9,7 +9,7 @@
     },
     "api/*.js": {
       "memory": 3009,
-      "maxDuration": 30
+      "maxDuration": 60
     }
   }
 }
