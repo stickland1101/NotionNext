@@ -1,5 +1,15 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "headers": []
+  "headers": []，
+  "functions": {
+    "api/test.js": {
+      "memory": 3009,
+      "maxDuration": 60
+    },
+    "api/*.js": {
+      "memory": 3009,
+      "maxDuration": 30
+    }
+  }
 }
