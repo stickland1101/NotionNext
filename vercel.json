@@ -2,12 +2,13 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [],
-}
-{
   "functions": {
-    "api/hello.js": {
-      "runtime": "nodejs14.x",
-      "memory": 3008,
+    "api/test.js": {
+      "memory": 3009,
+      "maxDuration": 60
+    },
+    "api/*.js": {
+      "memory": 3009,
       "maxDuration": 60
     }
   }
